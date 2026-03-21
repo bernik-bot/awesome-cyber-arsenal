@@ -94,9 +94,9 @@ Curated by [DevGreick](https://github.com/DevGreick)
 | [Masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner that transmits 10M packets/sec | 🟢 | [GitHub](https://github.com/robertdavidgraham/masscan) |
 | [Nmap](https://nmap.org/) | Network discovery and security auditing utility | 🟢 ⭐ | [GitHub](https://github.com/nmap/nmap) |
 | [Recon-ng](https://github.com/lanmaster53/recon-ng) | Full-featured web reconnaissance framework | 🟢 | [GitHub](https://github.com/lanmaster53/recon-ng) |
-| [Shodan](https://www.shodan.io/) | Search engine for internet-connected devices | 🟢 | [Website](https://www.shodan.io/) |
-| [Subfinder](https://projectdiscovery.io/) | Fast passive subdomain enumeration tool | 🟢 | [GitHub](https://github.com/projectdiscovery/subfinder) |
-| [theHarvester](https://github.com/laramies/theHarvester) | E-mail, subdomain, and name harvester for OSINT | 🟢 | [GitHub](https://github.com/laramies/theHarvester) |
+| [Shodan](https://www.shodan.io/) | Search engine for internet-connected devices | 🟢⭐  | [Website](https://www.shodan.io/) |
+| [Subfinder](https://projectdiscovery.io/) | Fast passive subdomain enumeration tool | 🟢⭐  | ⭐ [GitHub](https://github.com/projectdiscovery/subfinder) |
+| [theHarvester](https://github.com/laramies/theHarvester) | E-mail, subdomain, and name harvester for OSINT | 🟢⭐  | [GitHub](https://github.com/laramies/theHarvester) |
 
 ### Vulnerability Scanning
 
@@ -114,13 +114,13 @@ Curated by [DevGreick](https://github.com/DevGreick)
 | [Cobalt Strike](https://www.cobaltstrike.com/) | Commercial adversary simulation and red team operations | 🟢 | [Website](https://www.cobaltstrike.com/) |
 | [Havoc](https://github.com/HavocFramework/Havoc) | Modern and malleable post-exploitation C2 framework | 🟡 | [GitHub](https://github.com/HavocFramework/Havoc) |
 | [Metasploit](https://www.metasploit.com/) | The most widely used penetration testing framework | 🟢 ⭐ | [GitHub](https://github.com/rapid7/metasploit-framework) |
-| [Sliver](https://github.com/BishopFox/sliver) | Open source cross-platform C2 framework | 🟢 | [GitHub](https://github.com/BishopFox/sliver) |
+| [Sliver](https://github.com/BishopFox/sliver) | Open source cross-platform C2 framework | 🟢⭐  | [GitHub](https://github.com/BishopFox/sliver) |
 
 ### Post-Exploitation
 
 | Name | Description | Maturity | Link |
 |------|-------------|----------|------|
-| [BloodHound](https://bloodhound.readthedocs.io/) | Active Directory attack path mapping using graph theory | 🟢 | [GitHub](https://github.com/SpecterOps/BloodHound) |
+| [BloodHound](https://bloodhound.readthedocs.io/) | Active Directory attack path mapping using graph theory | 🟢⭐  | [GitHub](https://github.com/SpecterOps/BloodHound) |
 | [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) | Post-exploitation tool for large Active Directory networks | 🟢 | [GitHub](https://github.com/byt3bl33d3r/CrackMapExec) |
 | [Impacket](https://github.com/fortra/impacket) | Python classes for working with network protocols | 🟢 | [GitHub](https://github.com/fortra/impacket) |
 | [Mimikatz](https://github.com/gentilkiwi/mimikatz) | Windows credential extraction and manipulation | 🟢 | [GitHub](https://github.com/gentilkiwi/mimikatz) |
@@ -131,15 +131,15 @@ Curated by [DevGreick](https://github.com/DevGreick)
 | Name | Description | Maturity | Link |
 |------|-------------|----------|------|
 | [Hashcat](https://hashcat.net/hashcat/) | Advanced CPU/GPU-based password recovery | 🟢 ⭐ | [GitHub](https://github.com/hashcat/hashcat) |
-| [Hydra](https://github.com/vanhauser-thc/thc-hydra) | Parallelized login cracker supporting numerous protocols | 🟢 | [GitHub](https://github.com/vanhauser-thc/thc-hydra) |
+| [Hydra](https://github.com/vanhauser-thc/thc-hydra) | Parallelized login cracker supporting numerous protocols | 🟢⭐  | [GitHub](https://github.com/vanhauser-thc/thc-hydra) |
 | [John the Ripper](https://www.openwall.com/john/) | Open source password security auditing tool | 🟢 ⭐ | [GitHub](https://github.com/openwall/john) |
 
 ### Wireless
 
 | Name | Description | Maturity | Link |
 |------|-------------|----------|------|
-| [Aircrack-ng](https://www.aircrack-ng.org/) | Complete suite for assessing WiFi network security | 🟢 | [GitHub](https://github.com/aircrack-ng/aircrack-ng) |
-| [Bettercap](https://www.bettercap.org/) | Swiss army knife for WiFi, BLE, and network recon/MITM | 🟢 | [GitHub](https://github.com/bettercap/bettercap) |
+| [Aircrack-ng](https://www.aircrack-ng.org/) | Complete suite for assessing WiFi network security | 🟢⭐  | [GitHub](https://github.com/aircrack-ng/aircrack-ng) |
+| [Bettercap](https://www.bettercap.org/) | Swiss army knife for WiFi, BLE, and network recon/MITM | 🟢⭐  | [GitHub](https://github.com/bettercap/bettercap) |
 | [Wifite2](https://github.com/derv82/wifite2) | Automated wireless attack tool | 🟢 | [GitHub](https://github.com/derv82/wifite2) |
 
 ### Web Application
@@ -163,7 +163,7 @@ Curated by [DevGreick](https://github.com/DevGreick)
 | [Elastic Security](https://www.elastic.co/security) | SIEM and security analytics on Elasticsearch | 🟢 | [GitHub](https://github.com/elastic/elasticsearch) |
 | [Grafana Loki](https://grafana.com/oss/loki/) | Horizontally scalable multi-tenant log aggregation | 🟢 | [GitHub](https://github.com/grafana/loki) |
 | [Graylog](https://graylog.org/) | Free and open log management platform | 🟢 | [GitHub](https://github.com/Graylog2/graylog2-server) |
-| [Wazuh](https://wazuh.com/) | Open source unified XDR and SIEM protection | 🟢 | [GitHub](https://github.com/wazuh/wazuh) |
+| [Wazuh](https://wazuh.com/) | Open source unified XDR and SIEM protection | 🟢⭐  | [GitHub](https://github.com/wazuh/wazuh) |
 
 ### EDR & XDR
 
@@ -181,7 +181,7 @@ Curated by [DevGreick](https://github.com/DevGreick)
 | [CrowdSec](https://www.crowdsec.net/) | Collaborative and open source IPS | 🟢 | [GitHub](https://github.com/crowdsecurity/crowdsec) |
 | [pfSense](https://www.pfsense.org/) | Open source firewall/router distribution | 🟢 | [GitHub](https://github.com/pfsense/pfsense) |
 | [Snort](https://www.snort.org/) | Open source intrusion prevention system | 🟢 | [GitHub](https://github.com/snort3/snort3) |
-| [Suricata](https://suricata.io/) | High performance network IDS, IPS, and security monitoring | 🟢 | [GitHub](https://github.com/OISF/suricata) |
+| [Suricata](https://suricata.io/) | High performance network IDS, IPS, and security monitoring | 🟢⭐  | [GitHub](https://github.com/OISF/suricata) |
 | [Zeek](https://zeek.org/) | Powerful network analysis framework | 🟢 | [GitHub](https://github.com/zeek/zeek) |
 
 ### Incident Response
@@ -218,11 +218,11 @@ Curated by [DevGreick](https://github.com/DevGreick)
 
 | Name | Description | Maturity | Link |
 |------|-------------|----------|------|
-| [Abuse.ch](https://abuse.ch/) | Community-driven threat intelligence on malware and botnets | 🟢 | [Website](https://abuse.ch/) |
+| [Abuse.ch](https://abuse.ch/) | Community-driven threat intelligence on malware and botnets | 🟢⭐  | [Website](https://abuse.ch/) |
 | [AlienVault OTX](https://otx.alienvault.com/) | Open threat exchange with community-driven threat data | 🟢 | [Website](https://otx.alienvault.com/) |
 | [IntelOwl](https://github.com/intelowlproject/IntelOwl) | Analyze files, domains, IPs via multiple sources at once | 🟢 | [GitHub](https://github.com/intelowlproject/IntelOwl) |
-| [MISP](https://www.misp-project.org/) | Open source threat intelligence and sharing platform | 🟢 | [GitHub](https://github.com/MISP/MISP) |
-| [OpenCTI](https://www.opencti.io/) | Open source platform for cyber threat intelligence management | 🟢 | [GitHub](https://github.com/OpenCTI-Platform/opencti) |
+| [MISP](https://www.misp-project.org/) | Open source threat intelligence and sharing platform | 🟢⭐  | [GitHub](https://github.com/MISP/MISP) |
+| [OpenCTI](https://www.opencti.io/) | Open source platform for cyber threat intelligence management | 🟢⭐  | [GitHub](https://github.com/OpenCTI-Platform/opencti) |
 | [ThreatDeflect](https://github.com/DevGreick/ThreatDeflect) | Hybrid Python+Rust IOC analysis with local AI guardrails and GUI | 🟡 ⭐ | [GitHub](https://github.com/DevGreick/ThreatDeflect) |
 
 ### Threat Hunting
@@ -230,7 +230,7 @@ Curated by [DevGreick](https://github.com/DevGreick)
 | Name | Description | Maturity | Link |
 |------|-------------|----------|------|
 | [Elastic Detection Rules](https://github.com/elastic/detection-rules) | Community detection rules for Elastic Security | 🟢 | [GitHub](https://github.com/elastic/detection-rules) |
-| [MITRE ATT&CK](https://attack.mitre.org/) | Knowledge base of adversary tactics and techniques | 🟢 | [Website](https://attack.mitre.org/) |
+| [MITRE ATT&CK](https://attack.mitre.org/) | Knowledge base of adversary tactics and techniques | 🟢⭐  | [Website](https://attack.mitre.org/) |
 | [Sigma](https://sigmahq.io/) | Generic and open signature format for SIEM systems | 🟢 | [GitHub](https://github.com/SigmaHQ/sigma) |
 | [YARA Rules](https://github.com/Yara-Rules/rules) | Community repository of YARA rules | 🟢 | [GitHub](https://github.com/Yara-Rules/rules) |
 
@@ -249,8 +249,8 @@ Curated by [DevGreick](https://github.com/DevGreick)
 | Name | Description | Maturity | Link |
 |------|-------------|----------|------|
 | [Maigret](https://github.com/soxoj/maigret) | Collect a dossier on a person by username from thousands of sites | 🟢 | [GitHub](https://github.com/soxoj/maigret) |
-| [Maltego](https://www.maltego.com/) | Interactive data mining and link analysis | 🟢 | [Website](https://www.maltego.com/) |
-| [Sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username | 🟢 | [GitHub](https://github.com/sherlock-project/sherlock) |
+| [Maltego](https://www.maltego.com/) | Interactive data mining and link analysis | 🟢⭐  | [Website](https://www.maltego.com/) |
+| [Sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username | 🟢⭐  | [GitHub](https://github.com/sherlock-project/sherlock) |
 | [SpiderFoot](https://www.spiderfoot.net/) | Automated OSINT collection and reconnaissance | 🟢 | [GitHub](https://github.com/smicallef/spiderfoot) |
 
 ---
