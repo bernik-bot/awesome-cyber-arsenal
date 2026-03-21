@@ -2,8 +2,6 @@
 
 <img src="public/banner.svg" alt="awesome-cyber-arsenal" width="700">
 
-# awesome-cyber-arsenal
-
 A curated list of awesome cybersecurity tools, frameworks, and resources across offensive, defensive, CTI, and DevSecOps domains.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
