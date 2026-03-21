@@ -1,0 +1,55 @@
+name: Resource Suggestion
+description: Suggest a new tool or resource for the list
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource Name
+      placeholder: "e.g., Nuclei"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - "Offensive Security"
+        - "Defensive Security"
+        - "Cyber Threat Intelligence"
+        - "DevSecOps"
+        - "Platforms & Dashboards"
+        - "Learning & CTF"
+    validations:
+      required: true
+  - type: dropdown
+    id: maturity
+    attributes:
+      label: Maturity
+      options:
+        - "🟢 Production-ready"
+        - "🟡 Beta"
+        - "🔴 Alpha"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Max 120 characters"
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why should this be included?
+    validations:
+      required: false

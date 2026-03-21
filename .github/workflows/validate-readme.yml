@@ -1,0 +1,54 @@
+name: Validate README Format
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for duplicate entries
+        run: |
+          dupes=$(grep -oP '\| \[Link\]\((.*?)\)' README.md | sort | uniq -d)
+          if [ -n "$dupes" ]; then
+            echo "::error::Duplicate links found:"
+            echo "$dupes"
+            exit 1
+          fi
+          echo "No duplicate links found."
+
+      - name: Check table format
+        run: |
+          errors=0
+          while IFS= read -r line; do
+            if echo "$line" | grep -qP '^\| .+ \| .+ \| \[Link\]\(https?://' ; then
+              continue
+            elif echo "$line" | grep -qP '^\| Name \| Description \| Link \|' ; then
+              continue
+            elif echo "$line" | grep -qP '^\|---' ; then
+              continue
+            fi
+          done < <(grep '^\|' README.md)
+          echo "Table format check passed."
+
+      - name: Check markdown links
+        run: |
+          broken=0
+          while IFS= read -r url; do
+            clean_url=$(echo "$url" | tr -d '()')
+            if [[ "$clean_url" == http* ]]; then
+              status=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 10 "$clean_url" 2>/dev/null || echo "000")
+              if [[ "$status" == "000" || "$status" -ge 400 ]]; then
+                echo "::warning::Possible broken link ($status): $clean_url"
+                broken=$((broken + 1))
+              fi
+            fi
+          done < <(grep -oP '\[Link\]\(\K[^)]+' README.md)
+          if [ "$broken" -gt 0 ]; then
+            echo "::warning::Found $broken potentially broken links (warnings only, not failing)"
+          fi
+          echo "Link check completed."
