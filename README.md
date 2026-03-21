@@ -95,7 +95,7 @@ Curated by [DevGreick](https://github.com/DevGreick)
 | [Nmap](https://nmap.org/) | Network discovery and security auditing utility | 🟢 ⭐ | [GitHub](https://github.com/nmap/nmap) |
 | [Recon-ng](https://github.com/lanmaster53/recon-ng) | Full-featured web reconnaissance framework | 🟢 | [GitHub](https://github.com/lanmaster53/recon-ng) |
 | [Shodan](https://www.shodan.io/) | Search engine for internet-connected devices | 🟢⭐  | [Website](https://www.shodan.io/) |
-| [Subfinder](https://projectdiscovery.io/) | Fast passive subdomain enumeration tool | 🟢⭐  | ⭐ [GitHub](https://github.com/projectdiscovery/subfinder) |
+| [Subfinder](https://projectdiscovery.io/) | Fast passive subdomain enumeration tool | 🟢⭐  |  [GitHub](https://github.com/projectdiscovery/subfinder) |
 | [theHarvester](https://github.com/laramies/theHarvester) | E-mail, subdomain, and name harvester for OSINT | 🟢⭐  | [GitHub](https://github.com/laramies/theHarvester) |
 
 ### Vulnerability Scanning
