@@ -486,13 +486,13 @@ Curated by [DevGreick](https://github.com/DevGreick)
 
 | Name | Description | Maturity | Link |
 |------|-------------|----------|------|
-| [CyberDefenders](https://cyberdefenders.org/) | Blue team training platform with real-world scenarios | 🟢 | [Website](https://cyberdefenders.org/) |
-| [HackTheBox](https://www.hackthebox.com/) | Online cybersecurity training platform with labs | 🟢 | [Website](https://www.hackthebox.com/) |
-| [PicoCTF](https://picoctf.org/) | Free computer security education program with CTF challenges | 🟢 | [Website](https://picoctf.org/) |
-| [PortSwigger Academy](https://portswigger.net/web-security) | Free web security training from Burp Suite creators | 🟢 | [Website](https://portswigger.net/web-security) |
-| [SANS Cyber Ranges](https://www.sans.org/cyber-ranges/) | Premium hands-on cybersecurity exercises | 🟢 | [Website](https://www.sans.org/cyber-ranges/) |
-| [TryHackMe](https://tryhackme.com/) | Hands-on cyber security training through real-world scenarios | 🟢 | [Website](https://tryhackme.com/) |
-| [VulnHub](https://www.vulnhub.com/) | Vulnerable VMs for hands-on security experience | 🟢 | [Website](https://www.vulnhub.com/) |
+| [CyberDefenders](https://cyberdefenders.org/) | Blue team training platform with real-world scenarios | 🟢⭐  | [Website](https://cyberdefenders.org/) |
+| [HackTheBox](https://www.hackthebox.com/) | Online cybersecurity training platform with labs | 🟢⭐  | [Website](https://www.hackthebox.com/) |
+| [PicoCTF](https://picoctf.org/) | Free computer security education program with CTF challenges | 🟢⭐  | [Website](https://picoctf.org/) |
+| [PortSwigger Academy](https://portswigger.net/web-security) | Free web security training from Burp Suite creators | 🟢⭐  | [Website](https://portswigger.net/web-security) |
+| [SANS Cyber Ranges](https://www.sans.org/cyber-ranges/) | Premium hands-on cybersecurity exercises | 🟢⭐  | [Website](https://www.sans.org/cyber-ranges/) |
+| [TryHackMe](https://tryhackme.com/) | Hands-on cyber security training through real-world scenarios | 🟢⭐  | [Website](https://tryhackme.com/) |
+| [VulnHub](https://www.vulnhub.com/) | Vulnerable VMs for hands-on security experience | 🟢⭐  | [Website](https://www.vulnhub.com/) |
 
 ---
 
