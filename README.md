@@ -66,6 +66,9 @@ Curated by [DevGreick](https://github.com/DevGreick)
   - [Automotive Security](#automotive-security)
 - [Platforms & Dashboards](#platforms--dashboards)
 - [Learning & CTF](#learning--ctf)
+- [Recommended Stacks](#recommended-stacks)
+- [Getting Started Paths](#getting-started-paths)
+- [Mini Reviews](#mini-reviews)
 - [Contributing](#contributing)
 
 ---
@@ -493,6 +496,145 @@ Curated by [DevGreick](https://github.com/DevGreick)
 | [SANS Cyber Ranges](https://www.sans.org/cyber-ranges/) | Premium hands-on cybersecurity exercises | 🟢⭐  | [Website](https://www.sans.org/cyber-ranges/) |
 | [TryHackMe](https://tryhackme.com/) | Hands-on cyber security training through real-world scenarios | 🟢⭐  | [Website](https://tryhackme.com/) |
 | [VulnHub](https://www.vulnhub.com/) | Vulnerable VMs for hands-on security experience | 🟢⭐  | [Website](https://www.vulnhub.com/) |
+
+---
+
+## Recommended Stacks
+
+Pre-built combinations for common use cases. These are opinionated stacks based on real-world usage.
+
+### SOC / Blue Team Home Lab
+
+| Layer | Tool | Role |
+|-------|------|------|
+| SIEM | Wazuh | Central log collection, alerting, and compliance |
+| IDS/IPS | Suricata | Network-level threat detection |
+| Endpoint | Velociraptor | Live forensics and endpoint telemetry |
+| Detection Rules | Sigma | Vendor-agnostic detection rules across SIEMs |
+| Threat Intel | MISP | IOC sharing and enrichment |
+| Orchestration | Shuffle | SOAR automation between tools |
+
+### Red Team Engagement
+
+| Phase | Tool | Role |
+|-------|------|------|
+| Recon | Nmap + Subfinder + httpx | Network/subdomain/HTTP enumeration |
+| Scanning | Nuclei | Template-based vulnerability detection |
+| Exploitation | Metasploit or Sliver | Initial access and C2 |
+| Post-Exploit | BloodHound + Impacket | AD attack paths and lateral movement |
+| Credential | Hashcat + John the Ripper | Offline password cracking |
+| Web | Burp Suite + SQLMap + ffuf | Web app testing and fuzzing |
+
+### DevSecOps Pipeline
+
+| Stage | Tool | Role |
+|-------|------|------|
+| Pre-commit | Gitleaks | Prevent secrets from reaching the repo |
+| SAST | Semgrep + Bandit | Static code analysis (multi-lang + Python) |
+| SCA | OSV-Scanner + cargo-audit | Dependency vulnerability scanning |
+| Container | Trivy | Image scanning before deploy |
+| SBOM | Syft + Grype | Generate and scan software bill of materials |
+| CI Gate | Scorecard + Allstar | Enforce repo security best practices |
+
+### CTI / Threat Intelligence
+
+| Layer | Tool | Role |
+|-------|------|------|
+| Platform | OpenCTI | Central CTI management and correlation |
+| Feeds | MISP + Abuse.ch | IOC aggregation from multiple sources |
+| Analysis | ThreatDeflect | Local AI-powered IOC analysis with guardrails |
+| Enrichment | IntelOwl | Multi-source file/domain/IP lookup |
+| Framework | MITRE ATT&CK | Map findings to adversary TTPs |
+
+---
+
+## Getting Started Paths
+
+Pick your profile and follow the path. Each step builds on the previous one.
+
+### Red Team / Pentester
+
+```
+1. Learn networking fundamentals → TryHackMe or HackTheBox
+2. Master recon → Nmap + Subfinder + theHarvester
+3. Web app security → PortSwigger Academy + Burp Suite + ffuf
+4. Exploitation → Metasploit + SQLMap
+5. Post-exploitation → BloodHound + Mimikatz + Impacket
+6. Password attacks → Hashcat + John the Ripper
+7. Mobile → Frida + MobSF
+8. Build your own lab → VulnHub + HackTheBox
+```
+
+### Blue Team / SOC Analyst
+
+```
+1. Understand threats → MITRE ATT&CK + CyberDefenders
+2. Deploy a SIEM → Wazuh (start with a single agent)
+3. Network monitoring → Suricata + Zeek
+4. Log analysis → Elastic Security or Grafana Loki
+5. Incident response → TheHive + DFIR-IRIS
+6. Forensics → Volatility3 + Autopsy + YARA
+7. Threat hunting → Sigma rules + Chainsaw for Windows
+8. Automate → Shuffle for SOAR workflows
+```
+
+### DevSecOps Engineer
+
+```
+1. Secure your code → Semgrep + Bandit (Python) + cargo-audit (Rust)
+2. Scan dependencies → OSV-Scanner + Grype
+3. Detect secrets → Gitleaks in pre-commit + TruffleHog in CI
+4. Container security → Trivy + Docker Bench + Falco
+5. IaC scanning → Checkov + tfsec
+6. SBOM workflow → Syft (generate) + Bomber (scan)
+7. Supply chain → Sigstore (sign) + Scorecard (audit)
+8. Cloud posture → Prowler + Steampipe
+```
+
+### CTI Analyst
+
+```
+1. Foundations → MITRE ATT&CK + Sigma + YARA
+2. OSINT → Sherlock + Maltego + SpiderFoot
+3. Threat feeds → Abuse.ch + AlienVault OTX
+4. Platform → OpenCTI or MISP for IOC management
+5. Enrichment → IntelOwl for multi-source lookups
+6. Malware analysis → Ghidra + ANY.RUN + CAPE
+7. Local analysis → ThreatDeflect for AI-powered IOC triage
+8. Reporting → Map everything to ATT&CK for stakeholder reports
+```
+
+---
+
+## Mini Reviews
+
+Short takes from tools tested in production by [DevGreick](https://github.com/DevGreick). Only tools with ⭐ get a review.
+
+| Tool | One-liner Review |
+|------|-----------------|
+| **Nmap** | The baseline. NSE scripts are underrated for service-specific vuln checks. |
+| **Nuclei** | Fast and deadly with custom templates. YAML authoring has a learning curve. |
+| **Metasploit** | Still the go-to for PoC validation. Heavy for stealth ops, use Sliver instead. |
+| **Burp Suite** | Nothing beats it for web app testing. Community edition is limited but still useful. |
+| **SQLMap** | Set it and forget it for SQLi. Tamper scripts are essential for WAF bypass. |
+| **ffuf** | The fastest fuzzer I've used. Pair with good wordlists (SecLists) for best results. |
+| **Hashcat** | GPU cracking is unmatched. Rule-based attacks are more effective than brute force. |
+| **John the Ripper** | Better format support than Hashcat for exotic hashes. Use both. |
+| **Semgrep** | Custom rules in minutes. Best SAST for teams that want control without noise. |
+| **Bandit** | Dead simple for Python. Run it in CI as a first pass before Semgrep. |
+| **cargo-audit** | Essential for any Rust project. Catches advisory-listed crates fast. |
+| **Gitleaks** | Pre-commit hook catches 90% of secret leaks. Low false-positive rate. |
+| **TruffleHog** | Goes deeper than Gitleaks: verifies if secrets are still active. Use in CI. |
+| **Frida** | Runtime hooking on mobile is a superpower. Steep learning curve, massive payoff. |
+| **MobSF** | Best automated mobile scanner. Static + dynamic in one tool. Start here for mobile. |
+| **ThreatDeflect** | Built this one. Local AI with anti-hallucination guardrails for IOC analysis. |
+| **Wazuh** | Full XDR/SIEM for free. Agent deployment is painless, rule tuning takes time. |
+| **Suricata** | Outperforms Snort in throughput. JA3/JA4 fingerprinting is great for TLS hunting. |
+| **MISP** | The standard for IOC sharing. Setup is heavy, but the ecosystem is unmatched. |
+| **OpenCTI** | Beautiful UI, powerful correlation. Needs resources (RAM/CPU) to run properly. |
+| **Shodan** | Essential for external recon. API + CLI is more powerful than the web UI. |
+| **BloodHound** | If you're doing AD pentests without this, you're missing attack paths. Period. |
+| **MITRE ATT&CK** | Not a tool, it's the language. Map everything to it. |
 
 ---
 
