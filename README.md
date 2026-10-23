@@ -226,6 +226,7 @@ Curated by [DevGreick](https://github.com/DevGreick)
 |------|-------------|----------|------|
 | [Abuse.ch](https://abuse.ch/) | Community-driven threat intelligence on malware and botnets | 🟢 ⭐ 🆓 | [Website](https://abuse.ch/) |
 | [AlienVault OTX](https://otx.alienvault.com/) | Open threat exchange with community-driven threat data | 🟢 🆓 | [Website](https://otx.alienvault.com/) |
+| [ICHI — Internet Cyber Health Index](https://ichi.global/) | Source-transparent daily index of internet cyber health across threat intel, CVE, and network telemetry signals | 🟢 🆓 | [Website](https://ichi.global/) |
 | [IntelOwl](https://github.com/intelowlproject/IntelOwl) | Analyze files, domains, IPs via multiple sources at once | 🟢 🆓 | [GitHub](https://github.com/intelowlproject/IntelOwl) |
 | [MISP](https://www.misp-project.org/) | Open source threat intelligence and sharing platform | 🟢 ⭐ 🆓 | [GitHub](https://github.com/MISP/MISP) |
 | [OpenCTI](https://www.opencti.io/) | Open source platform for cyber threat intelligence management | 🟢 ⭐ 🆓 | [GitHub](https://github.com/OpenCTI-Platform/opencti) |
